@@ -1,0 +1,10 @@
+{
+  "skills": {
+    "entries": {
+      "tavily-search": {
+        "enabled": true,
+        "apiKey": "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"
+      }
+    }
+  }
+}

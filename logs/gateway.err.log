@@ -1,0 +1,277 @@
+2026-03-10T14:10:33.011+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, image). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T14:10:46.521+01:00 [agent/embedded] embedded run agent end: runId=33f1b4cc-5964-48e1-bef9-c3685b835a25 isError=true error={"detail":"The 'gpt-5.4' model is not supported when using Codex with a ChatGPT account."}
+2026-03-10T14:10:46.532+01:00 [agent/embedded] unsupported thinking level for openai-codex/gpt-5.4; retrying with off
+2026-03-10T14:10:46.536+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, image). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T14:10:55.382+01:00 [agent/embedded] embedded run agent end: runId=33f1b4cc-5964-48e1-bef9-c3685b835a25 isError=true error={"detail":"The 'gpt-5.4' model is not supported when using Codex with a ChatGPT account."}
+2026-03-10T14:48:07.058+01:00 [reload] config change requires gateway restart (auth.profiles.moonshot:default)
+2026-03-10T14:48:44.238+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T14:53:00.013+01:00 [reload] config change requires gateway restart (plugins)
+2026-03-10T14:53:01.147+01:00 [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: dingtalk (/Users/yangpeng/.openclaw/extensions/dingtalk/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-10T15:04:46.712+01:00 [reload] config change requires gateway restart (channels)
+2026-03-10T15:04:48.442+01:00 [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: dingtalk (/Users/yangpeng/.openclaw/extensions/dingtalk/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-10T15:06:53.446+01:00 [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: dingtalk (/Users/yangpeng/.openclaw/extensions/dingtalk/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-10T15:08:07.247+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T16:02:58.309+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T16:04:26.315+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T16:05:56.597+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T16:11:00.703+01:00 [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: dingtalk (/Users/yangpeng/.openclaw/extensions/dingtalk/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-10T16:11:41.084+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T16:15:08.111+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T16:16:51.399+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T16:18:49.860+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T16:21:10.757+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T16:23:55.634+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T16:26:33.900+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T16:28:59.252+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T16:32:37.817+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T16:34:01.307+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T16:35:34.936+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T16:42:04.494+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T16:45:07.132+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T16:47:25.952+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T16:48:36.299+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T16:48:52.658+01:00 [tools] read failed: ENOENT: no such file or directory, access '/Users/yangpeng/.openclaw/config.json'
+2026-03-10T16:52:07.859+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T16:53:29.815+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T16:57:06.099+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T16:58:40.623+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T17:05:38.310+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T17:06:07.715+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T17:06:40.649+01:00 [tools] edit failed: Found 2 occurrences of the text in /Users/yangpeng/.openclaw/workspace/.learnings/LEARNINGS.md. The text must be unique. Please provide more context to make it unique.
+2026-03-10T17:08:02.415+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T17:09:02.420+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T17:11:05.719+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T17:13:47.113+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T17:16:13.731+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T17:17:58.623+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T17:20:32.616+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-10T17:21:16.721+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T08:55:07.588+01:00 [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: dingtalk (/Users/yangpeng/.openclaw/extensions/dingtalk/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-11T08:55:31.086+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T09:02:23.960+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T09:10:43.583+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T09:11:28.751+01:00 [tools] edit failed: Found 2 occurrences of the text in /Users/yangpeng/.config/himalaya/config.toml. The text must be unique. Please provide more context to make it unique.
+2026-03-11T09:14:20.807+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T09:18:57.330+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T09:25:26.776+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T09:27:47.857+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T09:29:54.668+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T09:31:56.707+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T09:50:30.178+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T10:00:30.202+01:00 [agent/embedded] embedded run timeout: runId=365f4f50-c564-46f1-8fc6-f4dbb4920557 sessionId=bdfcd8fa-2d66-4266-bff6-80162c020630 timeoutMs=600000
+2026-03-11T10:00:30.223+01:00 [agent/embedded] Profile moonshot:default timed out. Trying next account...
+2026-03-11T10:14:09.634+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T10:49:12.933+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T10:54:31.474+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T11:00:46.578+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T11:04:35.993+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T11:14:34.026+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T11:24:34.070+01:00 [agent/embedded] embedded run timeout: runId=f6ae7ee3-58f5-4d88-be93-0ade37da4d23 sessionId=bdfcd8fa-2d66-4266-bff6-80162c020630 timeoutMs=600000
+2026-03-11T11:24:34.135+01:00 [agent/embedded] Profile moonshot:default timed out. Trying next account...
+2026-03-11T11:28:23.325+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T11:45:11.114+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T12:25:33.687+01:00 [reload] config change requires gateway restart (plugins.entries.dingtalk-connector, plugins.installs.dingtalk-connector)
+2026-03-11T12:25:35.460+01:00 [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: dingtalk (/Users/yangpeng/.openclaw/extensions/dingtalk/index.ts), dingtalk-connector (/Users/yangpeng/.openclaw/extensions/dingtalk-connector/plugin.ts). Set plugins.allow to explicit trusted ids.
+2026-03-11T13:44:18.384+01:00 [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: dingtalk (/Users/yangpeng/.openclaw/extensions/dingtalk/index.ts), dingtalk-connector (/Users/yangpeng/.openclaw/extensions/dingtalk-connector/plugin.ts). Set plugins.allow to explicit trusted ids.
+2026-03-11T13:44:27.870+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T13:46:59.870+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T13:48:38.034+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T13:53:07.333+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T14:06:45.238+01:00 [session-write-lock] releasing lock held for 817771ms (max=720000ms): /Users/yangpeng/.openclaw/agents/main/sessions/bdfcd8fa-2d66-4266-bff6-80162c020630.jsonl.lock
+2026-03-11T14:06:45.276+01:00 [agent/embedded] embedded run timeout: runId=22df9227-ce41-4c26-8889-5d96cf73c67b sessionId=bdfcd8fa-2d66-4266-bff6-80162c020630 timeoutMs=600000
+2026-03-11T14:06:45.301+01:00 [agent/embedded] Profile moonshot:default timed out. Trying next account...
+2026-03-11T14:08:54.168+01:00 [dingtalk] [default] WebSocket closed event (code: 1006, reason: )
+2026-03-11T14:08:54.177+01:00 [dingtalk] [default] Runtime disconnection detected, initiating reconnection...
+2026-03-11T14:14:53.526+01:00 [reload] config change requires gateway restart (plugins.entries.dingtalk-connector.enabled)
+2026-03-11T14:14:54.809+01:00 [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: dingtalk (/Users/yangpeng/.openclaw/extensions/dingtalk/index.ts), dingtalk-connector (/Users/yangpeng/.openclaw/extensions/dingtalk-connector/plugin.ts). Set plugins.allow to explicit trusted ids.
+2026-03-11T14:15:07.598+01:00 [dingtalk] [default] Connection health check failed - detected disconnection
+2026-03-11T14:15:07.611+01:00 [dingtalk] [default] Runtime disconnection detected, initiating reconnection...
+2026-03-11T14:15:08.401+01:00 ERROR Error: WebSocket was closed before the connection was established
+    at WebSocket.close (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/ws/lib/websocket.js:300:7)
+    at DWClient.disconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/dingtalk-stream/dist/client.cjs:190:46)
+    at ConnectionManager.attemptConnection (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:139:21)
+    at ConnectionManager.connect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:226:33)
+    at ConnectionManager.reconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:436:18)
+    at Timeout.<anonymous> (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:418:12)
+    at listOnTimeout (node:internal/timers:605:17)
+    at processTimers (node:internal/timers:541:7)
+2026-03-11T14:15:08.405+01:00 [dingtalk] [default] WebSocket error event: WebSocket was closed before the connection was established
+2026-03-11T14:15:08.407+01:00 [dingtalk] [default] WebSocket closed event (code: 1006, reason: )
+2026-03-11T14:15:20.057+01:00 [dingtalk] [default] Connection health check failed - detected disconnection
+2026-03-11T14:15:20.066+01:00 [dingtalk] [default] Runtime disconnection detected, initiating reconnection...
+2026-03-11T14:15:21.383+01:00 ERROR Error: WebSocket was closed before the connection was established
+    at WebSocket.close (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/ws/lib/websocket.js:300:7)
+    at DWClient.disconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/dingtalk-stream/dist/client.cjs:190:46)
+    at ConnectionManager.attemptConnection (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:139:21)
+    at ConnectionManager.connect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:226:33)
+    at ConnectionManager.reconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:436:18)
+    at Timeout.<anonymous> (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:418:12)
+    at listOnTimeout (node:internal/timers:605:17)
+    at processTimers (node:internal/timers:541:7)
+2026-03-11T14:15:21.388+01:00 [dingtalk] [default] WebSocket error event: WebSocket was closed before the connection was established
+2026-03-11T14:15:21.391+01:00 [dingtalk] [default] WebSocket closed event (code: 1006, reason: )
+2026-03-11T14:15:31.695+01:00 [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: dingtalk (/Users/yangpeng/.openclaw/extensions/dingtalk/index.ts), dingtalk-connector (/Users/yangpeng/.openclaw/extensions/dingtalk-connector/plugin.ts). Set plugins.allow to explicit trusted ids.
+2026-03-11T14:15:59.848+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T14:18:52.684+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T14:27:13.099+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T14:51:04.473+01:00 [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: dingtalk (/Users/yangpeng/.openclaw/extensions/dingtalk/index.ts), dingtalk-connector (/Users/yangpeng/.openclaw/extensions/dingtalk-connector/plugin.ts). Set plugins.allow to explicit trusted ids.
+2026-03-11T14:51:18.069+01:00 [dingtalk] [default] Connection health check failed - detected disconnection
+2026-03-11T14:51:18.075+01:00 [dingtalk] [default] Runtime disconnection detected, initiating reconnection...
+2026-03-11T14:51:19.066+01:00 ERROR Error: WebSocket was closed before the connection was established
+    at WebSocket.close (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/ws/lib/websocket.js:300:7)
+    at DWClient.disconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/dingtalk-stream/dist/client.cjs:190:46)
+    at ConnectionManager.attemptConnection (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:139:21)
+    at ConnectionManager.connect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:226:33)
+    at ConnectionManager.reconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:436:18)
+    at Timeout.<anonymous> (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:418:12)
+    at listOnTimeout (node:internal/timers:605:17)
+    at processTimers (node:internal/timers:541:7)
+2026-03-11T14:51:19.069+01:00 [dingtalk] [default] WebSocket error event: WebSocket was closed before the connection was established
+2026-03-11T14:51:19.071+01:00 [dingtalk] [default] WebSocket closed event (code: 1006, reason: )
+2026-03-11T14:51:30.677+01:00 [dingtalk] [default] Connection health check failed - detected disconnection
+2026-03-11T14:51:30.683+01:00 [dingtalk] [default] Runtime disconnection detected, initiating reconnection...
+2026-03-11T14:51:31.871+01:00 ERROR Error: WebSocket was closed before the connection was established
+    at WebSocket.close (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/ws/lib/websocket.js:300:7)
+    at DWClient.disconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/dingtalk-stream/dist/client.cjs:190:46)
+    at ConnectionManager.attemptConnection (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:139:21)
+    at ConnectionManager.connect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:226:33)
+    at ConnectionManager.reconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:436:18)
+    at Timeout.<anonymous> (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:418:12)
+    at listOnTimeout (node:internal/timers:605:17)
+    at processTimers (node:internal/timers:541:7)
+2026-03-11T14:51:31.875+01:00 [dingtalk] [default] WebSocket error event: WebSocket was closed before the connection was established
+2026-03-11T14:51:31.877+01:00 [dingtalk] [default] WebSocket closed event (code: 1006, reason: )
+2026-03-11T14:51:43.624+01:00 [dingtalk] [default] Connection health check failed - detected disconnection
+2026-03-11T14:51:43.633+01:00 [dingtalk] [default] Runtime disconnection detected, initiating reconnection...
+2026-03-11T14:51:44.719+01:00 ERROR Error: WebSocket was closed before the connection was established
+    at WebSocket.close (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/ws/lib/websocket.js:300:7)
+    at DWClient.disconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/dingtalk-stream/dist/client.cjs:190:46)
+    at ConnectionManager.attemptConnection (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:139:21)
+    at ConnectionManager.connect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:226:33)
+    at ConnectionManager.reconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:436:18)
+    at Timeout.<anonymous> (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:418:12)
+    at listOnTimeout (node:internal/timers:605:17)
+    at processTimers (node:internal/timers:541:7)
+2026-03-11T14:51:44.722+01:00 [dingtalk] [default] WebSocket error event: WebSocket was closed before the connection was established
+2026-03-11T14:51:44.724+01:00 [dingtalk] [default] WebSocket closed event (code: 1006, reason: )
+2026-03-11T14:51:56.317+01:00 [dingtalk] [default] Connection health check failed - detected disconnection
+2026-03-11T14:51:56.325+01:00 [dingtalk] [default] Runtime disconnection detected, initiating reconnection...
+2026-03-11T14:51:57.359+01:00 ERROR Error: WebSocket was closed before the connection was established
+    at WebSocket.close (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/ws/lib/websocket.js:300:7)
+    at DWClient.disconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/dingtalk-stream/dist/client.cjs:190:46)
+    at ConnectionManager.attemptConnection (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:139:21)
+    at ConnectionManager.connect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:226:33)
+    at ConnectionManager.reconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:436:18)
+    at Timeout.<anonymous> (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:418:12)
+    at listOnTimeout (node:internal/timers:605:17)
+    at processTimers (node:internal/timers:541:7)
+2026-03-11T14:51:57.367+01:00 [dingtalk] [default] WebSocket error event: WebSocket was closed before the connection was established
+2026-03-11T14:51:57.369+01:00 [dingtalk] [default] WebSocket closed event (code: 1006, reason: )
+2026-03-11T14:52:10.024+01:00 [dingtalk] [default] Connection health check failed - detected disconnection
+2026-03-11T14:52:10.032+01:00 [dingtalk] [default] Runtime disconnection detected, initiating reconnection...
+2026-03-11T14:52:11.264+01:00 ERROR Error: WebSocket was closed before the connection was established
+    at WebSocket.close (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/ws/lib/websocket.js:300:7)
+    at DWClient.disconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/dingtalk-stream/dist/client.cjs:190:46)
+    at ConnectionManager.attemptConnection (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:139:21)
+    at ConnectionManager.connect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:226:33)
+    at ConnectionManager.reconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:436:18)
+    at Timeout.<anonymous> (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:418:12)
+    at listOnTimeout (node:internal/timers:605:17)
+    at processTimers (node:internal/timers:541:7)
+2026-03-11T14:52:11.272+01:00 [dingtalk] [default] WebSocket error event: WebSocket was closed before the connection was established
+2026-03-11T14:52:11.274+01:00 [dingtalk] [default] WebSocket closed event (code: 1006, reason: )
+2026-03-11T14:52:24.029+01:00 [dingtalk] [default] Connection health check failed - detected disconnection
+2026-03-11T14:52:24.038+01:00 [dingtalk] [default] Runtime disconnection detected, initiating reconnection...
+2026-03-11T14:52:25.232+01:00 ERROR Error: WebSocket was closed before the connection was established
+    at WebSocket.close (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/ws/lib/websocket.js:300:7)
+    at DWClient.disconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/dingtalk-stream/dist/client.cjs:190:46)
+    at ConnectionManager.attemptConnection (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:139:21)
+    at ConnectionManager.connect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:226:33)
+    at ConnectionManager.reconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:436:18)
+    at Timeout.<anonymous> (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:418:12)
+    at listOnTimeout (node:internal/timers:605:17)
+    at processTimers (node:internal/timers:541:7)
+2026-03-11T14:52:25.237+01:00 [dingtalk] [default] WebSocket error event: WebSocket was closed before the connection was established
+2026-03-11T14:52:25.239+01:00 [dingtalk] [default] WebSocket closed event (code: 1006, reason: )
+2026-03-11T14:52:36.853+01:00 [dingtalk] [default] Connection health check failed - detected disconnection
+2026-03-11T14:52:36.861+01:00 [dingtalk] [default] Runtime disconnection detected, initiating reconnection...
+2026-03-11T14:52:37.592+01:00 ERROR Error: WebSocket was closed before the connection was established
+    at WebSocket.close (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/ws/lib/websocket.js:300:7)
+    at DWClient.disconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/dingtalk-stream/dist/client.cjs:190:46)
+    at ConnectionManager.attemptConnection (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:139:21)
+    at ConnectionManager.connect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:226:33)
+    at ConnectionManager.reconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:436:18)
+    at Timeout.<anonymous> (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:418:12)
+    at listOnTimeout (node:internal/timers:605:17)
+    at processTimers (node:internal/timers:541:7)
+2026-03-11T14:52:37.595+01:00 [dingtalk] [default] WebSocket error event: WebSocket was closed before the connection was established
+2026-03-11T14:52:37.598+01:00 [dingtalk] [default] WebSocket closed event (code: 1006, reason: )
+2026-03-11T14:52:49.206+01:00 [dingtalk] [default] Connection health check failed - detected disconnection
+2026-03-11T14:52:49.212+01:00 [dingtalk] [default] Runtime disconnection detected, initiating reconnection...
+2026-03-11T14:52:50.346+01:00 ERROR Error: WebSocket was closed before the connection was established
+    at WebSocket.close (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/ws/lib/websocket.js:300:7)
+    at DWClient.disconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/dingtalk-stream/dist/client.cjs:190:46)
+    at ConnectionManager.attemptConnection (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:139:21)
+    at ConnectionManager.connect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:226:33)
+    at ConnectionManager.reconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:436:18)
+    at Timeout.<anonymous> (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:418:12)
+    at listOnTimeout (node:internal/timers:605:17)
+    at processTimers (node:internal/timers:541:7)
+2026-03-11T14:52:50.351+01:00 [dingtalk] [default] WebSocket error event: WebSocket was closed before the connection was established
+2026-03-11T14:52:50.355+01:00 [dingtalk] [default] WebSocket closed event (code: 1006, reason: )
+2026-03-11T14:53:02.088+01:00 [dingtalk] [default] Connection health check failed - detected disconnection
+2026-03-11T14:53:02.094+01:00 [dingtalk] [default] Runtime disconnection detected, initiating reconnection...
+2026-03-11T14:53:03.038+01:00 ERROR Error: WebSocket was closed before the connection was established
+    at WebSocket.close (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/ws/lib/websocket.js:300:7)
+    at DWClient.disconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/dingtalk-stream/dist/client.cjs:190:46)
+    at ConnectionManager.attemptConnection (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:139:21)
+    at ConnectionManager.connect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:226:33)
+    at ConnectionManager.reconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:436:18)
+    at Timeout.<anonymous> (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:418:12)
+    at listOnTimeout (node:internal/timers:605:17)
+    at processTimers (node:internal/timers:541:7)
+2026-03-11T14:53:03.042+01:00 [dingtalk] [default] WebSocket error event: WebSocket was closed before the connection was established
+2026-03-11T14:53:03.044+01:00 [dingtalk] [default] WebSocket closed event (code: 1006, reason: )
+2026-03-11T14:53:14.774+01:00 [dingtalk] [default] Connection health check failed - detected disconnection
+2026-03-11T14:53:14.781+01:00 [dingtalk] [default] Runtime disconnection detected, initiating reconnection...
+2026-03-11T14:53:15.628+01:00 ERROR Error: WebSocket was closed before the connection was established
+    at WebSocket.close (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/ws/lib/websocket.js:300:7)
+    at DWClient.disconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/dingtalk-stream/dist/client.cjs:190:46)
+    at ConnectionManager.attemptConnection (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:139:21)
+    at ConnectionManager.connect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:226:33)
+    at ConnectionManager.reconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:436:18)
+    at Timeout.<anonymous> (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:418:12)
+    at listOnTimeout (node:internal/timers:605:17)
+    at processTimers (node:internal/timers:541:7)
+2026-03-11T14:53:15.632+01:00 [dingtalk] [default] WebSocket error event: WebSocket was closed before the connection was established
+2026-03-11T14:53:15.635+01:00 [dingtalk] [default] WebSocket closed event (code: 1006, reason: )
+2026-03-11T14:53:27.289+01:00 [dingtalk] [default] Connection health check failed - detected disconnection
+2026-03-11T14:53:27.297+01:00 [dingtalk] [default] Runtime disconnection detected, initiating reconnection...
+2026-03-11T14:53:28.100+01:00 ERROR Error: WebSocket was closed before the connection was established
+    at WebSocket.close (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/ws/lib/websocket.js:300:7)
+    at DWClient.disconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/dingtalk-stream/dist/client.cjs:190:46)
+    at ConnectionManager.attemptConnection (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:139:21)
+    at ConnectionManager.connect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:226:33)
+    at ConnectionManager.reconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:436:18)
+    at Timeout.<anonymous> (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:418:12)
+    at listOnTimeout (node:internal/timers:605:17)
+    at processTimers (node:internal/timers:541:7)
+2026-03-11T14:53:28.105+01:00 [dingtalk] [default] WebSocket error event: WebSocket was closed before the connection was established
+2026-03-11T14:53:28.108+01:00 [dingtalk] [default] WebSocket closed event (code: 1006, reason: )
+2026-03-11T14:53:39.731+01:00 [dingtalk] [default] Connection health check failed - detected disconnection
+2026-03-11T14:53:39.739+01:00 [dingtalk] [default] Runtime disconnection detected, initiating reconnection...
+2026-03-11T14:53:40.971+01:00 ERROR Error: WebSocket was closed before the connection was established
+    at WebSocket.close (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/ws/lib/websocket.js:300:7)
+    at DWClient.disconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/node_modules/dingtalk-stream/dist/client.cjs:190:46)
+    at ConnectionManager.attemptConnection (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:139:21)
+    at ConnectionManager.connect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:226:33)
+    at ConnectionManager.reconnect (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:436:18)
+    at Timeout.<anonymous> (/Users/yangpeng/.openclaw/extensions/dingtalk/src/connection-manager.ts:418:12)
+    at listOnTimeout (node:internal/timers:605:17)
+    at processTimers (node:internal/timers:541:7)
+2026-03-11T14:53:40.978+01:00 [dingtalk] [default] WebSocket error event: WebSocket was closed before the connection was established
+2026-03-11T14:53:40.980+01:00 [dingtalk] [default] WebSocket closed event (code: 1006, reason: )
+2026-03-11T14:54:42.007+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T14:55:36.941+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T14:56:55.438+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries won't match any tool unless the plugin is enabled.
+2026-03-11T15:06:54.542+01:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries won't match any tool unless the plugin is enabled.

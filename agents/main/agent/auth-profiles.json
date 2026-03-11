@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "profiles": {
+    "openai-codex:default": {
+      "type": "oauth",
+      "provider": "openai-codex",
+      "access": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjE5MzQ0ZTY1LWJiYzktNDRkMS1hOWQwLWY5NTdiMDc5YmQwZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSJdLCJjbGllbnRfaWQiOiJhcHBfRU1vYW1FRVo3M2YwQ2tYYVhwN2hyYW5uIiwiZXhwIjoxNzc0MDExODg0LCJodHRwczovL2FwaS5vcGVuYWkuY29tL2F1dGgiOnsiY2hhdGdwdF9hY2NvdW50X2lkIjoiYmI4MjJiOWQtOTc3YS00YzZhLWFlOTYtNjhhN2VhMjBiYWMyIiwiY2hhdGdwdF9hY2NvdW50X3VzZXJfaWQiOiJ1c2VyLWpUbEkwbGJZc2dKZzVLV2lXM21Ock9DQV9fYmI4MjJiOWQtOTc3YS00YzZhLWFlOTYtNjhhN2VhMjBiYWMyIiwiY2hhdGdwdF9jb21wdXRlX3Jlc2lkZW5jeSI6Im5vX2NvbnN0cmFpbnQiLCJjaGF0Z3B0X3BsYW5fdHlwZSI6ImZyZWUiLCJjaGF0Z3B0X3VzZXJfaWQiOiJ1c2VyLWpUbEkwbGJZc2dKZzVLV2lXM21Ock9DQSIsInVzZXJfaWQiOiJ1c2VyLWpUbEkwbGJZc2dKZzVLV2lXM21Ock9DQSJ9LCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJ5YW5ncGVuZzI3NTFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWV9LCJpYXQiOjE3NzMxNDc4ODQsImlzcyI6Imh0dHBzOi8vYXV0aC5vcGVuYWkuY29tIiwianRpIjoiZjk0OTkzMzAtZGRlNy00MzY1LTgxZWMtNzc5NWE1MzQyNTdkIiwibmJmIjoxNzczMTQ3ODg0LCJwd2RfYXV0aF90aW1lIjoxNzczMTQ3ODgxOTg3LCJzY3AiOlsib3BlbmlkIiwicHJvZmlsZSIsImVtYWlsIiwib2ZmbGluZV9hY2Nlc3MiXSwic2Vzc2lvbl9pZCI6ImF1dGhzZXNzX09rSXIyQUYxU2lUT0dnRWs3ZEdnUWRHUCIsInNsIjp0cnVlLCJzdWIiOiJnb29nbGUtb2F1dGgyfDEwMDg2NDEzMjMyNDEyNDE1MzQ2OCJ9.H2Cv20qxRRXAvsFeTCl_5acB0Gy4G9XeQ_dzZL3lx68FohDycp5CMX7M5T-Hf7k_nvgc3d_Lv_N-na2nqfNpS8_1PKPBJtXA9JJbkQYVwqvW9XXd06yvcDOYxvSTLX_G1tjf876T6qiVlluCI46iihbAjvT7gDlScWu3xTa6KsDHW01QLs8AEgYArPwcTPBGeVs9yP5op_RUZN-UbAwUCOFbUEtTnVJFUpY96_9h7Q2anGtLT4GQTCIhZ63bWTbeQ3ZLIVxBRQ9Gg_sW5Qz6ie6jKkvtdnF0AnrzMFlBPHhJMoBcmsA8wzunY6QOCjR-z5POVEOongP7xGZnk3zixeDoXEVqeFbLYFYB3WARB-emHhDwh3yjgCZ1J7QUCW7RHUoXZ08Wfxq1SpVgAEk3Q33hgWeL-EyV43LkpHANh3PR0okM_c0K_LffuASFCEt3SJE_J7sbH8u2iGXKff30ON3f-Wn2X68SGxZqy5zLtcf27DAFPdTmvAmllJua0iR5jff-Q_YbMoe-R3O9e3T0WbxfET4WjQLuD1osbZpyQahZr4_GIVqr3vV-tuwtTrWyrAsRTWUbnZPf1pvSNGfYwyecf0GW5cf1LgnmOLsoqnKRSGAeNd07Oz3rPQmPIRLBj1lBY-_Dnmtcpnns3J9bo5o4bXjhl8GBIiMpatesZ88",
+      "refresh": "rt_eG5Nc24TOP7zAfaf-pkDkQan9U5pdkvrPLfHMSylP44.6dyZiv13fo_hIqJHkqd6YEtjOTUU3H1X5VL2QKMD8Lk",
+      "expires": 1774011883172,
+      "accountId": "bb822b9d-977a-4c6a-ae96-68a7ea20bac2"
+    },
+    "moonshot:default": {
+      "type": "api_key",
+      "provider": "moonshot",
+      "key": "sk-0VrZ40oRDn8J7DF3TKGu3e55W4ywS31I4qRLxtjUvY9VBKEY"
+    }
+  },
+  "usageStats": {
+    "openai-codex:default": {
+      "errorCount": 0,
+      "lastUsed": 1773148255404
+    },
+    "moonshot:default": {
+      "errorCount": 0,
+      "lastUsed": 1773238295281
+    }
+  }
+}

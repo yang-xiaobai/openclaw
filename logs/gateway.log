@@ -1,0 +1,705 @@
+2026-03-10T14:08:50.128+01:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/yangpeng/.openclaw/canvas)
+2026-03-10T14:08:50.166+01:00 [heartbeat] started
+2026-03-10T14:08:50.168+01:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-10T14:08:50.169+01:00 [gateway] agent model: openai-codex/gpt-5.4
+2026-03-10T14:08:50.170+01:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 11829)
+2026-03-10T14:08:50.171+01:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-10.log
+2026-03-10T14:08:50.179+01:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-10T14:08:50.381+01:00 [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-03-10T14:08:50.398+01:00 [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-03-10T14:08:50.401+01:00 [hooks:loader] Registered hook: command-logger -> command
+2026-03-10T14:08:50.408+01:00 [hooks:loader] Registered hook: session-memory -> command:new, command:reset
+2026-03-10T14:08:50.409+01:00 [hooks] loaded 4 internal hook handlers
+2026-03-10T14:08:50.443+01:00 [gateway] device pairing auto-approved device=0c1f52fb809d1e31188feb43d517f81884c6b8ee839f4e58578c90b305cd8533 role=operator
+2026-03-10T14:08:55.241+01:00 [gateway] device pairing auto-approved device=c9f296d6e3a22c196adcddbe8bfb42db54ad2dc813e8db2ccf7adbb673f0b880 role=operator
+2026-03-10T14:08:55.244+01:00 [ws] webchat connected conn=db2fd4ef-057d-43df-a6fd-2ab39ba0f938 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.8
+2026-03-10T14:08:55.423+01:00 [ws] ⇄ res ✓ chat.history 162ms conn=db2fd4ef…f938 id=9eb54b72…4489
+2026-03-10T14:09:02.147+01:00 [ws] ⇄ res ✓ config.get 402ms conn=db2fd4ef…f938 id=8f36e128…7e9d
+2026-03-10T14:14:52.542+01:00 [ws] webchat disconnected code=1001 reason=n/a conn=db2fd4ef-057d-43df-a6fd-2ab39ba0f938
+2026-03-10T14:29:20.212+01:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, wizard.lastRunAt, wizard.lastRunCommand, agents.defaults.model.primary, agents.defaults.models)
+2026-03-10T14:29:20.218+01:00 [reload] config hot reload applied (agents.defaults.model.primary, agents.defaults.models)
+2026-03-10T14:29:57.587+01:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, wizard.lastRunAt)
+2026-03-10T14:29:57.593+01:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt, wizard.lastRunAt)
+2026-03-10T14:48:07.054+01:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, auth.profiles.moonshot:default, agents.defaults.model.primary, agents.defaults.models.moonshot/kimi-k2.5, models)
+2026-03-10T14:48:07.060+01:00 [gateway] signal SIGUSR1 received
+2026-03-10T14:48:07.062+01:00 [gateway] received SIGUSR1; restarting
+2026-03-10T14:48:07.079+01:00 [gmail-watcher] gmail watcher stopped
+2026-03-10T14:48:07.084+01:00 [gateway] restart mode: full process restart (supervisor restart)
+2026-03-10T14:48:08.307+01:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/yangpeng/.openclaw/canvas)
+2026-03-10T14:48:08.339+01:00 [heartbeat] started
+2026-03-10T14:48:08.341+01:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-10T14:48:08.343+01:00 [gateway] agent model: moonshot/kimi-k2.5
+2026-03-10T14:48:08.343+01:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 15949)
+2026-03-10T14:48:08.344+01:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-10.log
+2026-03-10T14:48:08.351+01:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-10T14:48:08.543+01:00 [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-03-10T14:48:08.549+01:00 [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-03-10T14:48:08.552+01:00 [hooks:loader] Registered hook: command-logger -> command
+2026-03-10T14:48:08.567+01:00 [hooks:loader] Registered hook: session-memory -> command:new, command:reset
+2026-03-10T14:48:08.568+01:00 [hooks] loaded 4 internal hook handlers
+2026-03-10T14:48:24.135+01:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, wizard.lastRunAt, wizard.lastRunCommand, tools.web.search.provider, tools.web.search.enabled, tools.web.search.kimi)
+2026-03-10T14:48:24.141+01:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt, wizard.lastRunAt, wizard.lastRunCommand, tools.web.search.provider, tools.web.search.enabled, tools.web.search.kimi)
+2026-03-10T14:48:25.448+01:00 [gateway] signal SIGTERM received
+2026-03-10T14:48:25.451+01:00 [gateway] received SIGTERM; shutting down
+2026-03-10T14:48:25.465+01:00 [gmail-watcher] gmail watcher stopped
+2026-03-10T14:48:27.776+01:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/yangpeng/.openclaw/canvas)
+2026-03-10T14:48:27.796+01:00 [heartbeat] started
+2026-03-10T14:48:27.798+01:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-10T14:48:27.799+01:00 [gateway] agent model: moonshot/kimi-k2.5
+2026-03-10T14:48:27.800+01:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 16006)
+2026-03-10T14:48:27.801+01:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-10.log
+2026-03-10T14:48:27.808+01:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-10T14:48:27.992+01:00 [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-03-10T14:48:28.014+01:00 [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-03-10T14:48:28.021+01:00 [hooks:loader] Registered hook: command-logger -> command
+2026-03-10T14:48:28.028+01:00 [hooks:loader] Registered hook: session-memory -> command:new, command:reset
+2026-03-10T14:48:28.030+01:00 [hooks] loaded 4 internal hook handlers
+2026-03-10T14:48:36.170+01:00 [ws] webchat connected conn=d2948e90-85f5-46a6-895f-743cf61cfe1c remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.8
+2026-03-10T14:48:36.360+01:00 [ws] ⇄ res ✓ chat.history 150ms conn=d2948e90…fe1c id=20127d76…06a6
+2026-03-10T14:53:00.009+01:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, plugins)
+2026-03-10T14:53:00.015+01:00 [gateway] signal SIGUSR1 received
+2026-03-10T14:53:00.017+01:00 [gateway] received SIGUSR1; restarting
+2026-03-10T14:53:00.021+01:00 [gmail-watcher] gmail watcher stopped
+2026-03-10T14:53:00.027+01:00 [ws] webchat disconnected code=1012 reason=service restart conn=d2948e90-85f5-46a6-895f-743cf61cfe1c
+2026-03-10T14:53:00.028+01:00 [gateway] restart mode: full process restart (supervisor restart)
+2026-03-10T14:53:01.928+01:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/yangpeng/.openclaw/canvas)
+2026-03-10T14:53:01.951+01:00 [heartbeat] started
+2026-03-10T14:53:01.953+01:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-10T14:53:01.955+01:00 [gateway] agent model: moonshot/kimi-k2.5
+2026-03-10T14:53:01.955+01:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 16214)
+2026-03-10T14:53:01.957+01:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-10.log
+2026-03-10T14:53:01.965+01:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-10T14:53:02.179+01:00 [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-03-10T14:53:02.202+01:00 [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-03-10T14:53:02.209+01:00 [hooks:loader] Registered hook: command-logger -> command
+2026-03-10T14:53:02.214+01:00 [hooks:loader] Registered hook: session-memory -> command:new, command:reset
+2026-03-10T14:53:02.215+01:00 [hooks] loaded 4 internal hook handlers
+2026-03-10T14:53:02.221+01:00 [ws] webchat connected conn=3fb0acf5-335a-4493-bf16-fcaf1f3ff69c remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.8
+2026-03-10T14:53:02.351+01:00 [ws] ⇄ res ✓ chat.history 124ms conn=3fb0acf5…f69c id=00f610c9…083b
+2026-03-10T15:04:46.708+01:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, wizard.lastRunAt, wizard.lastRunCommand, channels)
+2026-03-10T15:04:46.714+01:00 [gateway] signal SIGUSR1 received
+2026-03-10T15:04:46.716+01:00 [gateway] received SIGUSR1; restarting
+2026-03-10T15:04:46.722+01:00 [gmail-watcher] gmail watcher stopped
+2026-03-10T15:04:46.729+01:00 [ws] webchat disconnected code=1012 reason=service restart conn=3fb0acf5-335a-4493-bf16-fcaf1f3ff69c
+2026-03-10T15:04:46.747+01:00 [gateway] restart mode: full process restart (supervisor restart)
+│
+◇  Doctor warnings ───────────────────────────────────────────────────╮
+│                                                                     │
+│  - channels.dingtalk.allowFrom: set to ["*"] (required by           │
+│    dmPolicy="open")                                                 │
+│  - Run "openclaw doctor --fix" to add missing allowFrom wildcards.  │
+│                                                                     │
+├─────────────────────────────────────────────────────────────────────╯
+2026-03-10T15:04:49.213+01:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/yangpeng/.openclaw/canvas)
+2026-03-10T15:04:49.242+01:00 [heartbeat] started
+2026-03-10T15:04:49.245+01:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-10T15:04:49.246+01:00 [gateway] agent model: moonshot/kimi-k2.5
+2026-03-10T15:04:49.247+01:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 16694)
+2026-03-10T15:04:49.248+01:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-10.log
+2026-03-10T15:04:49.275+01:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-10T15:04:49.485+01:00 [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-03-10T15:04:49.509+01:00 [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-03-10T15:04:49.515+01:00 [hooks:loader] Registered hook: command-logger -> command
+2026-03-10T15:04:49.520+01:00 [hooks:loader] Registered hook: session-memory -> command:new, command:reset
+2026-03-10T15:04:49.521+01:00 [hooks] loaded 4 internal hook handlers
+2026-03-10T15:04:49.523+01:00 [dingtalk] [default] Initializing DingTalk Stream client...
+2026-03-10T15:04:49.524+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-10T15:04:49.525+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-10T15:04:49.526+01:00 Disconnecting.
+2026-03-10T15:04:49.664+01:00 [ws] webchat connected conn=d0a3c901-c9e8-49f3-9792-7b440345f449 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.8
+2026-03-10T15:04:49.799+01:00 [ws] ⇄ res ✓ chat.history 123ms conn=d0a3c901…f449 id=92f9d81a…db30
+2026-03-10T15:04:52.776+01:00 [ws] ⇄ res ✓ health 3238ms conn=9c320ee4…7be3 id=d2d3bd6f…0c1d
+2026-03-10T15:04:52.786+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-10T15:04:52.791+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-10T15:04:55.870+01:00 [2026-03-10T14:04:55.865Z] connect success
+2026-03-10T15:06:51.136+01:00 [gateway] signal SIGTERM received
+2026-03-10T15:06:51.140+01:00 [gateway] received SIGTERM; shutting down
+2026-03-10T15:06:51.176+01:00 [dingtalk] [default] Abort signal received, stopping DingTalk Stream client...
+2026-03-10T15:06:51.177+01:00 [dingtalk] [default] Stopping DingTalk Stream client...
+2026-03-10T15:06:51.178+01:00 [dingtalk] [default] Stopping connection manager...
+2026-03-10T15:06:51.179+01:00 Disconnecting.
+2026-03-10T15:06:51.180+01:00 [dingtalk] [default] Connection manager stopped
+2026-03-10T15:06:51.181+01:00 [dingtalk] [default] DingTalk Stream client stopped
+2026-03-10T15:06:51.182+01:00 [gmail-watcher] gmail watcher stopped
+2026-03-10T15:06:51.186+01:00 [ws] webchat disconnected code=1012 reason=service restart conn=d0a3c901-c9e8-49f3-9792-7b440345f449
+│
+◇  Doctor warnings ───────────────────────────────────────────────────╮
+│                                                                     │
+│  - channels.dingtalk.allowFrom: set to ["*"] (required by           │
+│    dmPolicy="open")                                                 │
+│  - Run "openclaw doctor --fix" to add missing allowFrom wildcards.  │
+│                                                                     │
+├─────────────────────────────────────────────────────────────────────╯
+2026-03-10T15:06:54.223+01:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/yangpeng/.openclaw/canvas)
+2026-03-10T15:06:54.245+01:00 [heartbeat] started
+2026-03-10T15:06:54.247+01:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-10T15:06:54.248+01:00 [gateway] agent model: moonshot/kimi-k2.5
+2026-03-10T15:06:54.249+01:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 16890)
+2026-03-10T15:06:54.250+01:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-10.log
+2026-03-10T15:06:54.273+01:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-10T15:06:54.485+01:00 [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-03-10T15:06:54.507+01:00 [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-03-10T15:06:54.510+01:00 [hooks:loader] Registered hook: command-logger -> command
+2026-03-10T15:06:54.515+01:00 [hooks:loader] Registered hook: session-memory -> command:new, command:reset
+2026-03-10T15:06:54.516+01:00 [hooks] loaded 4 internal hook handlers
+2026-03-10T15:06:54.517+01:00 [dingtalk] [default] Initializing DingTalk Stream client...
+2026-03-10T15:06:54.519+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-10T15:06:54.520+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-10T15:06:54.520+01:00 Disconnecting.
+2026-03-10T15:06:54.667+01:00 [ws] webchat connected conn=6f274874-e887-4196-9121-7603081d2611 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.8
+2026-03-10T15:06:54.799+01:00 [ws] ⇄ res ✓ chat.history 124ms conn=6f274874…2611 id=5cf441fa…4357
+2026-03-10T15:06:56.129+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-10T15:06:56.136+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-10T15:06:57.028+01:00 [2026-03-10T14:06:57.023Z] connect success
+2026-03-10T15:08:02.861+01:00 [dingtalk] Inbound: from=Alex text="你对接了一个新的平台..."
+2026-03-10T15:16:18.514+01:00 [ws] webchat disconnected code=1006 reason=n/a conn=6f274874-e887-4196-9121-7603081d2611
+2026-03-10T15:16:19.675+01:00 [ws] webchat connected conn=bf22adce-b503-4267-84e0-83e17346e9f7 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.8
+2026-03-10T15:58:01.913+01:00 [ws] webchat disconnected code=1001 reason=n/a conn=bf22adce-b503-4267-84e0-83e17346e9f7
+2026-03-10T15:58:02.078+01:00 [ws] webchat connected conn=0e3d2c24-e06d-45ed-8a24-dbcc410383e3 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.8
+2026-03-10T16:05:19.066+01:00 [ws] ⇄ res ✓ config.get 389ms conn=e6d7794e…e5ae id=14d8ff8d…1e98
+2026-03-10T16:05:19.068+01:00 [ws] ⇄ res ✓ status 393ms conn=e6d7794e…e5ae id=cd877eac…0ac1
+2026-03-10T16:10:50.772+01:00 [reload] config change detected; evaluating reload (channels.dingtalk.maxReconnectCycles)
+2026-03-10T16:10:50.777+01:00 [gateway/channels] restarting dingtalk channel
+2026-03-10T16:10:50.778+01:00 [dingtalk] [default] Abort signal received, stopping DingTalk Stream client...
+2026-03-10T16:10:50.779+01:00 [dingtalk] [default] Stopping DingTalk Stream client...
+2026-03-10T16:10:50.781+01:00 [dingtalk] [default] Stopping connection manager...
+2026-03-10T16:10:50.783+01:00 Disconnecting.
+2026-03-10T16:10:50.785+01:00 [dingtalk] [default] Connection manager stopped
+2026-03-10T16:10:50.786+01:00 [dingtalk] [default] DingTalk Stream client stopped
+2026-03-10T16:10:50.787+01:00 [dingtalk] [default] Initializing DingTalk Stream client...
+2026-03-10T16:10:50.789+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-10T16:10:50.790+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-10T16:10:50.792+01:00 Disconnecting.
+2026-03-10T16:10:50.795+01:00 [reload] config hot reload applied (channels.dingtalk.maxReconnectCycles)
+2026-03-10T16:10:54.215+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-10T16:10:54.220+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-10T16:10:56.115+01:00 [2026-03-10T15:10:56.113Z] connect success
+2026-03-10T16:10:58.295+01:00 [gateway] signal SIGTERM received
+2026-03-10T16:10:58.298+01:00 [gateway] received SIGTERM; shutting down
+2026-03-10T16:10:58.332+01:00 [dingtalk] [default] Abort signal received, stopping DingTalk Stream client...
+2026-03-10T16:10:58.332+01:00 [dingtalk] [default] Stopping DingTalk Stream client...
+2026-03-10T16:10:58.333+01:00 [dingtalk] [default] Stopping connection manager...
+2026-03-10T16:10:58.334+01:00 Disconnecting.
+2026-03-10T16:10:58.335+01:00 [dingtalk] [default] Connection manager stopped
+2026-03-10T16:10:58.336+01:00 [dingtalk] [default] DingTalk Stream client stopped
+2026-03-10T16:10:58.337+01:00 [gmail-watcher] gmail watcher stopped
+2026-03-10T16:10:58.341+01:00 [ws] webchat disconnected code=1012 reason=service restart conn=0e3d2c24-e06d-45ed-8a24-dbcc410383e3
+│
+◇  Doctor warnings ───────────────────────────────────────────────────╮
+│                                                                     │
+│  - channels.dingtalk.allowFrom: set to ["*"] (required by           │
+│    dmPolicy="open")                                                 │
+│  - Run "openclaw doctor --fix" to add missing allowFrom wildcards.  │
+│                                                                     │
+├─────────────────────────────────────────────────────────────────────╯
+2026-03-10T16:11:01.839+01:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/yangpeng/.openclaw/canvas)
+2026-03-10T16:11:01.874+01:00 [heartbeat] started
+2026-03-10T16:11:01.877+01:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-10T16:11:01.879+01:00 [gateway] agent model: moonshot/kimi-k2.5
+2026-03-10T16:11:01.879+01:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 18675)
+2026-03-10T16:11:01.881+01:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-10.log
+2026-03-10T16:11:01.909+01:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-10T16:11:02.127+01:00 [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-03-10T16:11:02.152+01:00 [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-03-10T16:11:02.154+01:00 [hooks:loader] Registered hook: command-logger -> command
+2026-03-10T16:11:02.160+01:00 [hooks:loader] Registered hook: session-memory -> command:new, command:reset
+2026-03-10T16:11:02.161+01:00 [hooks] loaded 4 internal hook handlers
+2026-03-10T16:11:02.163+01:00 [dingtalk] [default] Initializing DingTalk Stream client...
+2026-03-10T16:11:02.164+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-10T16:11:02.165+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-10T16:11:02.166+01:00 Disconnecting.
+2026-03-10T16:11:02.172+01:00 [ws] webchat connected conn=ab6a388a-9d32-4d59-81a7-db26d9b71147 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.8
+2026-03-10T16:11:02.308+01:00 [ws] ⇄ res ✓ chat.history 129ms conn=ab6a388a…1147 id=b026c5f7…e6cf
+2026-03-10T16:11:03.811+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-10T16:11:03.817+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-10T16:11:07.234+01:00 [ws] ⇄ res ✓ config.get 454ms conn=3445219e…9c68 id=f3d1132f…ad02
+2026-03-10T16:11:07.236+01:00 [ws] ⇄ res ✓ status 457ms conn=3445219e…9c68 id=a07257ad…9653
+2026-03-10T16:11:07.237+01:00 [2026-03-10T15:11:07.236Z] connect success
+2026-03-10T16:11:36.719+01:00 [dingtalk] Inbound: from=Alex text="重新配置了一下..."
+2026-03-10T16:15:05.734+01:00 [dingtalk] Inbound: from=Alex text="配置一下clawhub的api令牌..."
+2026-03-10T16:16:49.566+01:00 [dingtalk] Inbound: from=Alex text="你目前的技能都安装在什么目录下？..."
+2026-03-10T16:18:45.377+01:00 [dingtalk] Inbound: from=Alex text="用clawhub安装Skill Vetter技能..."
+2026-03-10T16:21:08.900+01:00 [dingtalk] Inbound: from=Alex text="在我安装任何技能的时候请都要用Skill Vetter来检查一下，对于低风险和中风险的可以直接安装，..."
+2026-03-10T16:23:53.507+01:00 [dingtalk] Inbound: from=Alex text="用clawhub安装self-improving-agent..."
+2026-03-10T16:24:53.507+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=7, acked=5, processed=5, dedupSkipped=0, inflightSkipped=1, failed=0, noMessageId=0
+2026-03-10T16:26:28.754+01:00 [dingtalk] Inbound: from=Alex text="你找错了应该是self-improving-agent，作者是pskoett的..."
+2026-03-10T16:27:28.744+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=9, acked=6, processed=6, dedupSkipped=0, inflightSkipped=2, failed=0, noMessageId=0
+2026-03-10T16:28:55.928+01:00 [dingtalk] Inbound: from=Alex text="可以安装..."
+2026-03-10T16:29:17.422+01:00 [dingtalk] [default] Inbound counters (periodic): received=10, acked=8, processed=8, dedupSkipped=0, inflightSkipped=2, failed=0, noMessageId=0
+2026-03-10T16:32:35.566+01:00 [dingtalk] Inbound: from=Alex text="好的..."
+2026-03-10T16:33:56.228+01:00 [dingtalk] Inbound: from=Alex text="请记录..."
+2026-03-10T16:34:56.218+01:00 [dingtalk] [default] Inbound counters (dedup-skipped): received=13, acked=11, processed=10, dedupSkipped=1, inflightSkipped=2, failed=0, noMessageId=0
+2026-03-10T16:35:33.084+01:00 [dingtalk] Inbound: from=Alex text="好的..."
+2026-03-10T16:36:33.082+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=15, acked=11, processed=10, dedupSkipped=1, inflightSkipped=3, failed=0, noMessageId=0
+2026-03-10T16:42:00.358+01:00 [dingtalk] Inbound: from=Alex text="请使用clawhub安装Tavily Search 作者matthew77..."
+2026-03-10T16:44:59.948+01:00 [dingtalk] Inbound: from=Alex text="请使用clawhub安装Tavily Search 作者Liang..."
+2026-03-10T16:45:59.940+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=18, acked=13, processed=12, dedupSkipped=1, inflightSkipped=4, failed=0, noMessageId=0
+2026-03-10T16:47:24.096+01:00 [dingtalk] Inbound: from=Alex text="确认..."
+2026-03-10T16:48:32.018+01:00 [dingtalk] Inbound: from=Alex text="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..."
+2026-03-10T16:49:32.014+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=21, acked=15, processed=14, dedupSkipped=1, inflightSkipped=5, failed=0, noMessageId=0
+2026-03-10T16:52:05.981+01:00 [dingtalk] Inbound: from=Alex text="可以..."
+2026-03-10T16:53:25.969+01:00 [dingtalk] Inbound: from=Alex text="看一下你有没有summarize的技能..."
+2026-03-10T16:57:02.419+01:00 [dingtalk] Inbound: from=Alex text="在进行网络搜索的时候请执行tavily搜索+summarize总结的工作流模式..."
+2026-03-10T16:58:33.564+01:00 [dingtalk] Inbound: from=Alex text="请使用clawhub安装作者是JimLiuxinghai的Find Skills..."
+2026-03-10T16:59:33.479+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=26, acked=19, processed=18, dedupSkipped=1, inflightSkipped=6, failed=0, noMessageId=0
+2026-03-10T17:05:33.727+01:00 [dingtalk] Inbound: from=Alex text="在使用网络搜索工作流的时候总结的内容要控制在500字以内..."
+2026-03-10T17:06:04.898+01:00 [dingtalk] Inbound: from=Alex text="是的..."
+2026-03-10T17:07:04.888+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=29, acked=21, processed=20, dedupSkipped=1, inflightSkipped=7, failed=0, noMessageId=0
+2026-03-10T17:08:00.472+01:00 [dingtalk] Inbound: from=Alex text="我看到你这个写入失败了，你需要确认一下..."
+2026-03-10T17:08:36.274+01:00 [dingtalk] [default] Inbound counters (periodic): received=30, acked=23, processed=22, dedupSkipped=1, inflightSkipped=7, failed=0, noMessageId=0
+2026-03-10T17:09:00.590+01:00 [dingtalk] Inbound: from=Alex text="请使用clawhub安装Find Skills..."
+2026-03-10T17:10:00.584+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=32, acked=23, processed=22, dedupSkipped=1, inflightSkipped=8, failed=0, noMessageId=0
+2026-03-10T17:11:02.016+01:00 [dingtalk] Inbound: from=Alex text="安装..."
+2026-03-10T17:13:39.643+01:00 [dingtalk] Inbound: from=Alex text="请使用clawhub安装Using Superpowers..."
+2026-03-10T17:14:39.639+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=35, acked=25, processed=24, dedupSkipped=1, inflightSkipped=9, failed=0, noMessageId=0
+2026-03-10T17:16:11.876+01:00 [dingtalk] Inbound: from=Alex text="确认..."
+2026-03-10T17:17:55.808+01:00 [dingtalk] Inbound: from=Alex text="clawhub安装agent browser..."
+2026-03-10T17:18:55.802+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=38, acked=27, processed=26, dedupSkipped=1, inflightSkipped=10, failed=0, noMessageId=0
+2026-03-10T17:20:28.704+01:00 [dingtalk] Inbound: from=Alex text="确认..."
+2026-03-10T17:21:13.964+01:00 [dingtalk] Inbound: from=Alex text="需要..."
+2026-03-10T17:22:13.913+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=41, acked=29, processed=28, dedupSkipped=1, inflightSkipped=11, failed=0, noMessageId=0
+2026-03-10T17:23:41.804+01:00 [ws] webchat disconnected code=1006 reason=n/a conn=ab6a388a-9d32-4d59-81a7-db26d9b71147
+2026-03-10T17:23:42.919+01:00 [ws] webchat connected conn=d7d778af-d0a2-4a7a-9ba9-7a73fa68b230 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.8
+2026-03-10T21:26:51.387+01:00 [ws] webchat disconnected code=1006 reason=n/a conn=d7d778af-d0a2-4a7a-9ba9-7a73fa68b230
+2026-03-10T21:26:52.575+01:00 [ws] webchat connected conn=3daa8dc5-f50f-4b6c-bd7e-5ef24d6a4f23 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.8
+2026-03-11T07:50:23.916+01:00 [ws] webchat disconnected code=1006 reason=n/a conn=3daa8dc5-f50f-4b6c-bd7e-5ef24d6a4f23
+2026-03-11T07:50:25.199+01:00 [ws] webchat connected conn=b50cd292-b8de-40e7-beec-2f3710c84b78 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.8
+2026-03-11T07:50:36.250+01:00 [ws] webchat disconnected code=1006 reason=n/a conn=b50cd292-b8de-40e7-beec-2f3710c84b78
+2026-03-11T07:50:37.636+01:00 [ws] webchat connected conn=b850322b-3715-4c40-91ec-287e02d9fd64 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.8
+2026-03-11T08:39:39.672+01:00 [ws] webchat disconnected code=1006 reason=n/a conn=b850322b-3715-4c40-91ec-287e02d9fd64
+2026-03-11T08:39:40.675+01:00 [ws] webchat connected conn=94ae8cb1-8f65-4756-9a43-24093b19b48a remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.8
+2026-03-11T08:55:05.229+01:00 [gateway] signal SIGTERM received
+2026-03-11T08:55:05.232+01:00 [gateway] received SIGTERM; shutting down
+2026-03-11T08:55:05.266+01:00 [dingtalk] [default] Abort signal received, stopping DingTalk Stream client...
+2026-03-11T08:55:05.267+01:00 [dingtalk] [default] Stopping DingTalk Stream client...
+2026-03-11T08:55:05.268+01:00 [dingtalk] [default] Stopping connection manager...
+2026-03-11T08:55:05.269+01:00 Disconnecting.
+2026-03-11T08:55:05.271+01:00 [dingtalk] [default] Connection manager stopped
+2026-03-11T08:55:05.271+01:00 [dingtalk] [default] DingTalk Stream client stopped
+2026-03-11T08:55:05.273+01:00 [gmail-watcher] gmail watcher stopped
+2026-03-11T08:55:05.277+01:00 [ws] webchat disconnected code=1012 reason=service restart conn=94ae8cb1-8f65-4756-9a43-24093b19b48a
+│
+◇  Doctor warnings ───────────────────────────────────────────────────╮
+│                                                                     │
+│  - channels.dingtalk.allowFrom: set to ["*"] (required by           │
+│    dmPolicy="open")                                                 │
+│  - Run "openclaw doctor --fix" to add missing allowFrom wildcards.  │
+│                                                                     │
+├─────────────────────────────────────────────────────────────────────╯
+2026-03-11T08:55:08.374+01:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/yangpeng/.openclaw/canvas)
+2026-03-11T08:55:08.406+01:00 [heartbeat] started
+2026-03-11T08:55:08.409+01:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-11T08:55:08.411+01:00 [gateway] agent model: moonshot/kimi-k2.5
+2026-03-11T08:55:08.411+01:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 24847)
+2026-03-11T08:55:08.413+01:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-11.log
+2026-03-11T08:55:08.440+01:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-11T08:55:08.658+01:00 [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-03-11T08:55:08.679+01:00 [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-03-11T08:55:08.681+01:00 [hooks:loader] Registered hook: command-logger -> command
+2026-03-11T08:55:08.687+01:00 [hooks:loader] Registered hook: session-memory -> command:new, command:reset
+2026-03-11T08:55:08.688+01:00 [hooks] loaded 4 internal hook handlers
+2026-03-11T08:55:08.689+01:00 [dingtalk] [default] Initializing DingTalk Stream client...
+2026-03-11T08:55:08.691+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-11T08:55:08.692+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-11T08:55:08.692+01:00 Disconnecting.
+2026-03-11T08:55:11.184+01:00 [ws] webchat connected conn=ae3b80ec-bf97-4f82-8cd4-66ecb876cdb5 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.8
+2026-03-11T08:55:11.362+01:00 [ws] ⇄ res ✓ chat.history 166ms conn=ae3b80ec…cdb5 id=389c56f9…3dc3
+2026-03-11T08:55:12.083+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T08:55:12.088+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T08:55:13.843+01:00 [2026-03-11T07:55:13.839Z] connect success
+2026-03-11T08:55:16.662+01:00 [ws] ⇄ res ✓ config.get 380ms conn=4651e35f…e402 id=b725aa44…d180
+2026-03-11T08:55:16.664+01:00 [ws] ⇄ res ✓ status 383ms conn=4651e35f…e402 id=2503bbe4…892f
+2026-03-11T08:55:27.718+01:00 [dingtalk] Inbound: from=Alex text="早上好..."
+2026-03-11T09:02:20.721+01:00 [dingtalk] Inbound: from=Alex text="我现在正在使用腾讯企业邮箱，请为我完成配置，如果需要我提供什么资料可以跟我说..."
+2026-03-11T09:03:20.783+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=3, acked=1, processed=1, dedupSkipped=0, inflightSkipped=1, failed=0, noMessageId=0
+2026-03-11T09:10:40.994+01:00 [dingtalk] Inbound: from=Alex text="我的邮箱地址是：yangpeng_hq@huaxin.com，邮箱密码是：WMZM2kzpWicgn..."
+2026-03-11T09:11:40.993+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=5, acked=2, processed=2, dedupSkipped=0, inflightSkipped=2, failed=0, noMessageId=0
+2026-03-11T09:14:18.494+01:00 [dingtalk] Inbound: from=Alex text="增加一条规则，在使用Himalaya发送邮件的时候，必须得到我回复：杨鹏已确认的字符才可以进行发送，..."
+2026-03-11T09:15:18.520+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=7, acked=3, processed=3, dedupSkipped=0, inflightSkipped=3, failed=0, noMessageId=0
+2026-03-11T09:18:55.402+01:00 [dingtalk] Inbound: from=Alex text="规则2:你坚决不可以执行删除邮件的动作，在任何情况下都不可以，这是不可商量的。..."
+2026-03-11T09:19:55.397+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=9, acked=4, processed=4, dedupSkipped=0, inflightSkipped=4, failed=0, noMessageId=0
+2026-03-11T09:25:22.803+01:00 [dingtalk] Inbound: from=Alex text="看一下我现在有哪些未读的邮件..."
+2026-03-11T09:26:22.798+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=11, acked=5, processed=5, dedupSkipped=0, inflightSkipped=5, failed=0, noMessageId=0
+2026-03-11T09:27:45.961+01:00 [dingtalk] Inbound: from=Alex text="你这个返回的格式对我来说读起来太困难了，让他变得更加易读一些..."
+2026-03-11T09:29:52.710+01:00 [dingtalk] Inbound: from=Alex text="干的不错，不过在返回的信息里需要把内容总结为50个字添加进去。..."
+2026-03-11T09:30:52.701+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=14, acked=7, processed=7, dedupSkipped=0, inflightSkipped=6, failed=0, noMessageId=0
+2026-03-11T09:31:52.796+01:00 [dingtalk] Inbound: from=Alex text="很好以后邮件都按照这样的合适来展示..."
+2026-03-11T09:50:26.251+01:00 [dingtalk] Inbound: from=Alex text="看一下我邮箱里最近3个月有多少是关于尼日利亚项目的邮件..."
+2026-03-11T09:51:26.242+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=17, acked=9, processed=9, dedupSkipped=0, inflightSkipped=7, failed=0, noMessageId=0
+2026-03-11T10:00:31.778+01:00 [ws] webchat disconnected code=1001 reason=n/a conn=ae3b80ec-bf97-4f82-8cd4-66ecb876cdb5
+2026-03-11T10:14:04.977+01:00 [dingtalk] Inbound: from=Alex text="你还在工作吗..."
+2026-03-11T10:49:09.180+01:00 [dingtalk] Inbound: from=Alex text="看一下/Users/yangpeng/华新文档/海外业务/尼日利亚项目这个目录下的文件，并总结一下文..."
+2026-03-11T10:50:09.197+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=20, acked=11, processed=11, dedupSkipped=0, inflightSkipped=8, failed=0, noMessageId=0
+2026-03-11T10:53:44.448+01:00 [dingtalk] [default] Inbound counters (periodic): received=20, acked=12, processed=12, dedupSkipped=0, inflightSkipped=8, failed=0, noMessageId=0
+2026-03-11T10:54:27.161+01:00 [dingtalk] Inbound: from=Alex text="找一下可以读取PDF和docx文件的skills..."
+2026-03-11T10:55:27.149+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=22, acked=12, processed=12, dedupSkipped=0, inflightSkipped=9, failed=0, noMessageId=0
+2026-03-11T11:00:42.265+01:00 [dingtalk] Inbound: from=Alex text="安装pdf读取工具..."
+2026-03-11T11:01:42.263+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=24, acked=13, processed=13, dedupSkipped=0, inflightSkipped=10, failed=0, noMessageId=0
+2026-03-11T11:04:34.160+01:00 [dingtalk] Inbound: from=Alex text="在看一下/Users/yangpeng/华新文档/海外业务/尼日利亚项目这个目录下的文件，并总结一下..."
+2026-03-11T11:05:34.157+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=26, acked=14, processed=14, dedupSkipped=0, inflightSkipped=11, failed=0, noMessageId=0
+2026-03-11T11:14:29.202+01:00 [dingtalk] Inbound: from=Alex text="你去了解一下sap的系统架构和业务流程和操作模式，总之你需要非常熟悉sap ecc6.0版本全部的内..."
+2026-03-11T11:15:29.200+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=28, acked=15, processed=15, dedupSkipped=0, inflightSkipped=12, failed=0, noMessageId=0
+2026-03-11T11:28:21.009+01:00 [dingtalk] Inbound: from=Alex text="上面的工作你完成了嘛..."
+2026-03-11T11:29:21.007+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=30, acked=16, processed=16, dedupSkipped=0, inflightSkipped=13, failed=0, noMessageId=0
+2026-03-11T11:38:00.502+01:00 [dingtalk] [default] Inbound counters (periodic): received=30, acked=17, processed=17, dedupSkipped=0, inflightSkipped=13, failed=0, noMessageId=0
+2026-03-11T11:45:07.324+01:00 [dingtalk] Inbound: from=Alex text="你现在可以读取钉钉的在线表格数据吗..."
+2026-03-11T11:46:08.009+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=32, acked=17, processed=17, dedupSkipped=0, inflightSkipped=14, failed=0, noMessageId=0
+2026-03-11T12:25:33.682+01:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, plugins.entries.dingtalk-connector, plugins.installs.dingtalk-connector)
+2026-03-11T12:25:33.689+01:00 [gateway] signal SIGUSR1 received
+2026-03-11T12:25:33.690+01:00 [gateway] received SIGUSR1; restarting
+2026-03-11T12:25:33.697+01:00 [dingtalk] [default] Abort signal received, stopping DingTalk Stream client...
+2026-03-11T12:25:33.698+01:00 [dingtalk] [default] Stopping DingTalk Stream client...
+2026-03-11T12:25:33.699+01:00 [dingtalk] [default] Stopping connection manager...
+2026-03-11T12:25:33.701+01:00 Disconnecting.
+2026-03-11T12:25:33.703+01:00 [dingtalk] [default] Connection manager stopped
+2026-03-11T12:25:33.704+01:00 [dingtalk] [default] DingTalk Stream client stopped
+2026-03-11T12:25:33.705+01:00 [gmail-watcher] gmail watcher stopped
+2026-03-11T12:25:33.710+01:00 [gateway] restart mode: full process restart (supervisor restart)
+│
+◇  Doctor warnings ───────────────────────────────────────────────────╮
+│                                                                     │
+│  - channels.dingtalk.allowFrom: set to ["*"] (required by           │
+│    dmPolicy="open")                                                 │
+│  - Run "openclaw doctor --fix" to add missing allowFrom wildcards.  │
+│                                                                     │
+├─────────────────────────────────────────────────────────────────────╯
+2026-03-11T12:25:36.343+01:00 [gateway] [DingTalk] 插件已注册（支持主动发送 AI Card 消息、文档读写）
+2026-03-11T12:25:36.360+01:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/yangpeng/.openclaw/canvas)
+2026-03-11T12:25:36.398+01:00 [heartbeat] started
+2026-03-11T12:25:36.401+01:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-11T12:25:36.403+01:00 [gateway] agent model: moonshot/kimi-k2.5
+2026-03-11T12:25:36.403+01:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 15798)
+2026-03-11T12:25:36.405+01:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-11.log
+2026-03-11T12:25:36.431+01:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-11T12:25:36.640+01:00 [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-03-11T12:25:36.659+01:00 [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-03-11T12:25:36.662+01:00 [hooks:loader] Registered hook: command-logger -> command
+2026-03-11T12:25:36.667+01:00 [hooks:loader] Registered hook: session-memory -> command:new, command:reset
+2026-03-11T12:25:36.668+01:00 [hooks] loaded 4 internal hook handlers
+2026-03-11T12:25:36.670+01:00 [dingtalk] [default] Initializing DingTalk Stream client...
+2026-03-11T12:25:36.672+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-11T12:25:36.673+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-11T12:25:36.673+01:00 Disconnecting.
+2026-03-11T12:25:39.713+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T12:25:39.719+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T12:25:41.664+01:00 [2026-03-11T11:25:41.661Z] connect success
+2026-03-11T13:43:55.322+01:00 [ws] ⇄ res ✓ config.get 424ms conn=ef9b65ac…ba43 id=15d340de…ee68
+2026-03-11T13:43:55.324+01:00 [ws] ⇄ res ✓ status 430ms conn=ef9b65ac…ba43 id=f5441c59…9ad1
+2026-03-11T13:44:16.014+01:00 [gateway] signal SIGTERM received
+2026-03-11T13:44:16.016+01:00 [gateway] received SIGTERM; shutting down
+2026-03-11T13:44:16.050+01:00 [dingtalk] [default] Abort signal received, stopping DingTalk Stream client...
+2026-03-11T13:44:16.052+01:00 [dingtalk] [default] Stopping DingTalk Stream client...
+2026-03-11T13:44:16.053+01:00 [dingtalk] [default] Stopping connection manager...
+2026-03-11T13:44:16.054+01:00 Disconnecting.
+2026-03-11T13:44:16.055+01:00 [dingtalk] [default] Connection manager stopped
+2026-03-11T13:44:16.056+01:00 [dingtalk] [default] DingTalk Stream client stopped
+2026-03-11T13:44:16.057+01:00 [gmail-watcher] gmail watcher stopped
+│
+◇  Doctor warnings ───────────────────────────────────────────────────╮
+│                                                                     │
+│  - channels.dingtalk.allowFrom: set to ["*"] (required by           │
+│    dmPolicy="open")                                                 │
+│  - Run "openclaw doctor --fix" to add missing allowFrom wildcards.  │
+│                                                                     │
+├─────────────────────────────────────────────────────────────────────╯
+2026-03-11T13:44:19.166+01:00 [gateway] [DingTalk] 插件已注册（支持主动发送 AI Card 消息、文档读写）
+2026-03-11T13:44:19.180+01:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/yangpeng/.openclaw/canvas)
+2026-03-11T13:44:19.217+01:00 [heartbeat] started
+2026-03-11T13:44:19.221+01:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-11T13:44:19.223+01:00 [gateway] agent model: moonshot/kimi-k2.5
+2026-03-11T13:44:19.223+01:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 57612)
+2026-03-11T13:44:19.225+01:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-11.log
+2026-03-11T13:44:19.251+01:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-11T13:44:19.468+01:00 [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-03-11T13:44:19.490+01:00 [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-03-11T13:44:19.492+01:00 [hooks:loader] Registered hook: command-logger -> command
+2026-03-11T13:44:19.498+01:00 [hooks:loader] Registered hook: session-memory -> command:new, command:reset
+2026-03-11T13:44:19.499+01:00 [hooks] loaded 4 internal hook handlers
+2026-03-11T13:44:19.500+01:00 [dingtalk] [default] Initializing DingTalk Stream client...
+2026-03-11T13:44:19.502+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-11T13:44:19.503+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-11T13:44:19.504+01:00 Disconnecting.
+2026-03-11T13:44:21.106+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T13:44:21.112+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T13:44:24.605+01:00 [2026-03-11T12:44:24.601Z] connect success
+2026-03-11T13:44:25.309+01:00 [dingtalk] Inbound: from=Alex text="帮我给朱金发送一条消息，告诉他明天9点开会..."
+2026-03-11T13:45:25.318+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=2, acked=0, processed=0, dedupSkipped=0, inflightSkipped=1, failed=0, noMessageId=0
+2026-03-11T13:46:58.077+01:00 [dingtalk] Inbound: from=Alex text="杨鹏已确认..."
+2026-03-11T13:47:58.080+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=4, acked=1, processed=1, dedupSkipped=0, inflightSkipped=2, failed=0, noMessageId=0
+2026-03-11T13:48:35.946+01:00 [dingtalk] Inbound: from=Alex text="通过钉钉发送..."
+2026-03-11T13:49:35.946+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=6, acked=2, processed=2, dedupSkipped=0, inflightSkipped=3, failed=0, noMessageId=0
+2026-03-11T13:53:05.312+01:00 [dingtalk] Inbound: from=Alex text="那就创建一个日程吧..."
+2026-03-11T13:54:05.332+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=8, acked=3, processed=3, dedupSkipped=0, inflightSkipped=4, failed=0, noMessageId=0
+2026-03-11T14:08:54.173+01:00 [dingtalk] [default] Runtime counters (socket-close): healthUnhealthyChecks=0, healthTriggeredReconnects=0, socketCloseEvents=1, runtimeDisconnects=0, reconnectAttempts=0, reconnectSuccess=0, reconnectFailures=0
+2026-03-11T14:08:54.183+01:00 [dingtalk] [default] Scheduling reconnection in 1.09s
+2026-03-11T14:08:55.280+01:00 [dingtalk] [default] Attempting to reconnect...
+2026-03-11T14:08:55.287+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-11T14:08:55.293+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-11T14:08:55.294+01:00 Disconnecting.
+2026-03-11T14:08:57.153+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T14:08:57.161+01:00 [dingtalk] [default] Reconnection successful
+2026-03-11T14:08:57.166+01:00 [dingtalk] [default] Runtime counters (reconnect-success): healthUnhealthyChecks=0, healthTriggeredReconnects=0, socketCloseEvents=1, runtimeDisconnects=1, reconnectAttempts=1, reconnectSuccess=1, reconnectFailures=0
+2026-03-11T14:08:59.769+01:00 [2026-03-11T13:08:59.767Z] connect success
+2026-03-11T14:09:54.402+01:00 [ws] ⇄ res ✓ config.get 392ms conn=cde23537…0ffc id=5d15d99c…9f5b
+2026-03-11T14:14:53.523+01:00 [reload] config change detected; evaluating reload (plugins.entries.dingtalk-connector.enabled)
+2026-03-11T14:14:53.529+01:00 [gateway] signal SIGUSR1 received
+2026-03-11T14:14:53.530+01:00 [gateway] received SIGUSR1; restarting
+2026-03-11T14:14:53.538+01:00 [dingtalk] [default] Abort signal received, stopping DingTalk Stream client...
+2026-03-11T14:14:53.539+01:00 [dingtalk] [default] Stopping DingTalk Stream client...
+2026-03-11T14:14:53.540+01:00 [dingtalk] [default] Stopping connection manager...
+2026-03-11T14:14:53.541+01:00 Disconnecting.
+2026-03-11T14:14:53.543+01:00 [dingtalk] [default] Connection manager stopped
+2026-03-11T14:14:53.544+01:00 [dingtalk] [default] DingTalk Stream client stopped
+2026-03-11T14:14:53.545+01:00 [gmail-watcher] gmail watcher stopped
+2026-03-11T14:14:53.549+01:00 [gateway] restart mode: full process restart (supervisor restart)
+│
+◇  Doctor warnings ───────────────────────────────────────────────────╮
+│                                                                     │
+│  - channels.dingtalk.allowFrom: set to ["*"] (required by           │
+│    dmPolicy="open")                                                 │
+│  - Run "openclaw doctor --fix" to add missing allowFrom wildcards.  │
+│                                                                     │
+├─────────────────────────────────────────────────────────────────────╯
+2026-03-11T14:14:55.654+01:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/yangpeng/.openclaw/canvas)
+2026-03-11T14:14:55.691+01:00 [heartbeat] started
+2026-03-11T14:14:55.694+01:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-11T14:14:55.695+01:00 [gateway] agent model: moonshot/kimi-k2.5
+2026-03-11T14:14:55.696+01:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 71480)
+2026-03-11T14:14:55.697+01:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-11.log
+2026-03-11T14:14:55.726+01:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-11T14:14:55.975+01:00 [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-03-11T14:14:55.984+01:00 [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-03-11T14:14:55.987+01:00 [hooks:loader] Registered hook: command-logger -> command
+2026-03-11T14:14:55.992+01:00 [hooks:loader] Registered hook: session-memory -> command:new, command:reset
+2026-03-11T14:14:55.993+01:00 [hooks] loaded 4 internal hook handlers
+2026-03-11T14:14:55.995+01:00 [dingtalk] [default] Initializing DingTalk Stream client...
+2026-03-11T14:14:55.997+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-11T14:14:55.998+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-11T14:14:55.999+01:00 Disconnecting.
+2026-03-11T14:14:57.584+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T14:14:57.591+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T14:15:07.606+01:00 [dingtalk] [default] Runtime counters (health-triggered-reconnect): healthUnhealthyChecks=2, healthTriggeredReconnects=1, socketCloseEvents=0, runtimeDisconnects=0, reconnectAttempts=0, reconnectSuccess=0, reconnectFailures=0
+2026-03-11T14:15:07.617+01:00 [dingtalk] [default] Scheduling reconnection in 0.75s
+2026-03-11T14:15:08.372+01:00 [dingtalk] [default] Attempting to reconnect...
+2026-03-11T14:15:08.378+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-11T14:15:08.386+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-11T14:15:08.389+01:00 Disconnecting.
+2026-03-11T14:15:08.409+01:00 [dingtalk] [default] Runtime counters (socket-close): healthUnhealthyChecks=2, healthTriggeredReconnects=1, socketCloseEvents=1, runtimeDisconnects=1, reconnectAttempts=1, reconnectSuccess=0, reconnectFailures=0
+2026-03-11T14:15:10.045+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T14:15:10.055+01:00 [dingtalk] [default] Reconnection successful
+2026-03-11T14:15:10.058+01:00 [dingtalk] [default] Runtime counters (reconnect-success): healthUnhealthyChecks=2, healthTriggeredReconnects=1, socketCloseEvents=1, runtimeDisconnects=1, reconnectAttempts=1, reconnectSuccess=1, reconnectFailures=0
+2026-03-11T14:15:20.062+01:00 [dingtalk] [default] Runtime counters (health-triggered-reconnect): healthUnhealthyChecks=4, healthTriggeredReconnects=2, socketCloseEvents=1, runtimeDisconnects=1, reconnectAttempts=1, reconnectSuccess=1, reconnectFailures=0
+2026-03-11T14:15:20.071+01:00 [dingtalk] [default] Scheduling reconnection in 1.28s
+2026-03-11T14:15:21.359+01:00 [dingtalk] [default] Attempting to reconnect...
+2026-03-11T14:15:21.367+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-11T14:15:21.375+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-11T14:15:21.376+01:00 Disconnecting.
+2026-03-11T14:15:21.393+01:00 [dingtalk] [default] Runtime counters (socket-close): healthUnhealthyChecks=4, healthTriggeredReconnects=2, socketCloseEvents=2, runtimeDisconnects=2, reconnectAttempts=2, reconnectSuccess=1, reconnectFailures=0
+2026-03-11T14:15:23.057+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T14:15:23.067+01:00 [dingtalk] [default] Reconnection successful
+2026-03-11T14:15:23.070+01:00 [dingtalk] [default] Runtime counters (reconnect-success): healthUnhealthyChecks=4, healthTriggeredReconnects=2, socketCloseEvents=2, runtimeDisconnects=2, reconnectAttempts=2, reconnectSuccess=2, reconnectFailures=0
+2026-03-11T14:15:25.135+01:00 [2026-03-11T13:15:25.132Z] connect success
+2026-03-11T14:15:29.365+01:00 [gateway] signal SIGTERM received
+2026-03-11T14:15:29.368+01:00 [gateway] received SIGTERM; shutting down
+2026-03-11T14:15:29.404+01:00 [dingtalk] [default] Abort signal received, stopping DingTalk Stream client...
+2026-03-11T14:15:29.405+01:00 [dingtalk] [default] Stopping DingTalk Stream client...
+2026-03-11T14:15:29.406+01:00 [dingtalk] [default] Stopping connection manager...
+2026-03-11T14:15:29.408+01:00 Disconnecting.
+2026-03-11T14:15:29.410+01:00 [dingtalk] [default] Connection manager stopped
+2026-03-11T14:15:29.411+01:00 [dingtalk] [default] DingTalk Stream client stopped
+2026-03-11T14:15:29.414+01:00 [gmail-watcher] gmail watcher stopped
+│
+◇  Doctor warnings ───────────────────────────────────────────────────╮
+│                                                                     │
+│  - channels.dingtalk.allowFrom: set to ["*"] (required by           │
+│    dmPolicy="open")                                                 │
+│  - Run "openclaw doctor --fix" to add missing allowFrom wildcards.  │
+│                                                                     │
+├─────────────────────────────────────────────────────────────────────╯
+2026-03-11T14:15:32.487+01:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/yangpeng/.openclaw/canvas)
+2026-03-11T14:15:32.511+01:00 [heartbeat] started
+2026-03-11T14:15:32.513+01:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-11T14:15:32.515+01:00 [gateway] agent model: moonshot/kimi-k2.5
+2026-03-11T14:15:32.515+01:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 72035)
+2026-03-11T14:15:32.516+01:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-11.log
+2026-03-11T14:15:32.537+01:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-11T14:15:32.728+01:00 [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-03-11T14:15:32.735+01:00 [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-03-11T14:15:32.737+01:00 [hooks:loader] Registered hook: command-logger -> command
+2026-03-11T14:15:32.742+01:00 [hooks:loader] Registered hook: session-memory -> command:new, command:reset
+2026-03-11T14:15:32.743+01:00 [hooks] loaded 4 internal hook handlers
+2026-03-11T14:15:32.745+01:00 [dingtalk] [default] Initializing DingTalk Stream client...
+2026-03-11T14:15:32.746+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-11T14:15:32.748+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-11T14:15:32.748+01:00 Disconnecting.
+2026-03-11T14:15:34.347+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T14:15:34.352+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T14:15:36.279+01:00 [2026-03-11T13:15:36.275Z] connect success
+2026-03-11T14:15:43.367+01:00 [ws] ⇄ res ✓ config.get 415ms conn=8215971a…4a22 id=1bc397a6…a7c1
+2026-03-11T14:15:55.363+01:00 [dingtalk] Inbound: from=Alex text="朱金的邮箱是zhujin@huaxincem.com..."
+2026-03-11T14:16:55.346+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=2, acked=0, processed=0, dedupSkipped=0, inflightSkipped=1, failed=0, noMessageId=0
+2026-03-11T14:18:51.016+01:00 [dingtalk] Inbound: from=Alex text="杨鹏已确认..."
+2026-03-11T14:19:51.017+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=4, acked=1, processed=1, dedupSkipped=0, inflightSkipped=2, failed=0, noMessageId=0
+2026-03-11T14:27:10.424+01:00 [dingtalk] Inbound: from=Alex text="但是我在我的发件箱里已经看到了发送记录，你的信息有误..."
+2026-03-11T14:28:10.412+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=6, acked=2, processed=2, dedupSkipped=0, inflightSkipped=3, failed=0, noMessageId=0
+2026-03-11T14:51:02.021+01:00 [gateway] signal SIGTERM received
+2026-03-11T14:51:02.024+01:00 [gateway] received SIGTERM; shutting down
+2026-03-11T14:51:02.059+01:00 [dingtalk] [default] Abort signal received, stopping DingTalk Stream client...
+2026-03-11T14:51:02.060+01:00 [dingtalk] [default] Stopping DingTalk Stream client...
+2026-03-11T14:51:02.060+01:00 [dingtalk] [default] Stopping connection manager...
+2026-03-11T14:51:02.062+01:00 Disconnecting.
+2026-03-11T14:51:02.063+01:00 [dingtalk] [default] Connection manager stopped
+2026-03-11T14:51:02.064+01:00 [dingtalk] [default] DingTalk Stream client stopped
+2026-03-11T14:51:02.066+01:00 [gmail-watcher] gmail watcher stopped
+│
+◇  Doctor warnings ───────────────────────────────────────────────────╮
+│                                                                     │
+│  - channels.dingtalk.allowFrom: set to ["*"] (required by           │
+│    dmPolicy="open")                                                 │
+│  - Run "openclaw doctor --fix" to add missing allowFrom wildcards.  │
+│                                                                     │
+├─────────────────────────────────────────────────────────────────────╯
+2026-03-11T14:51:05.641+01:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/yangpeng/.openclaw/canvas)
+2026-03-11T14:51:05.683+01:00 [heartbeat] started
+2026-03-11T14:51:05.686+01:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-11T14:51:05.687+01:00 [gateway] agent model: moonshot/kimi-k2.5
+2026-03-11T14:51:05.688+01:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 84741)
+2026-03-11T14:51:05.689+01:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-11.log
+2026-03-11T14:51:05.713+01:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-11T14:51:05.927+01:00 [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-03-11T14:51:05.933+01:00 [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-03-11T14:51:05.936+01:00 [hooks:loader] Registered hook: command-logger -> command
+2026-03-11T14:51:05.941+01:00 [hooks:loader] Registered hook: session-memory -> command:new, command:reset
+2026-03-11T14:51:05.942+01:00 [hooks] loaded 4 internal hook handlers
+2026-03-11T14:51:05.944+01:00 [dingtalk] [default] Initializing DingTalk Stream client...
+2026-03-11T14:51:05.946+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-11T14:51:05.947+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-11T14:51:05.947+01:00 Disconnecting.
+2026-03-11T14:51:08.061+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T14:51:08.066+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T14:51:18.072+01:00 [dingtalk] [default] Runtime counters (health-triggered-reconnect): healthUnhealthyChecks=2, healthTriggeredReconnects=1, socketCloseEvents=0, runtimeDisconnects=0, reconnectAttempts=0, reconnectSuccess=0, reconnectFailures=0
+2026-03-11T14:51:18.079+01:00 [dingtalk] [default] Scheduling reconnection in 0.96s
+2026-03-11T14:51:18.780+01:00 [ws] ⇄ res ✓ config.get 428ms conn=643b5769…007c id=28d2926f…f12d
+2026-03-11T14:51:18.782+01:00 [ws] ⇄ res ✓ status 432ms conn=643b5769…007c id=541e528d…fefc
+2026-03-11T14:51:19.046+01:00 [dingtalk] [default] Attempting to reconnect...
+2026-03-11T14:51:19.052+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-11T14:51:19.056+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-11T14:51:19.057+01:00 Disconnecting.
+2026-03-11T14:51:19.073+01:00 [dingtalk] [default] Runtime counters (socket-close): healthUnhealthyChecks=2, healthTriggeredReconnects=1, socketCloseEvents=1, runtimeDisconnects=1, reconnectAttempts=1, reconnectSuccess=0, reconnectFailures=0
+2026-03-11T14:51:20.666+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T14:51:20.672+01:00 [dingtalk] [default] Reconnection successful
+2026-03-11T14:51:20.675+01:00 [dingtalk] [default] Runtime counters (reconnect-success): healthUnhealthyChecks=2, healthTriggeredReconnects=1, socketCloseEvents=1, runtimeDisconnects=1, reconnectAttempts=1, reconnectSuccess=1, reconnectFailures=0
+2026-03-11T14:51:30.680+01:00 [dingtalk] [default] Runtime counters (health-triggered-reconnect): healthUnhealthyChecks=4, healthTriggeredReconnects=2, socketCloseEvents=1, runtimeDisconnects=1, reconnectAttempts=1, reconnectSuccess=1, reconnectFailures=0
+2026-03-11T14:51:30.686+01:00 [dingtalk] [default] Scheduling reconnection in 1.16s
+2026-03-11T14:51:31.854+01:00 [dingtalk] [default] Attempting to reconnect...
+2026-03-11T14:51:31.859+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-11T14:51:31.863+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-11T14:51:31.865+01:00 Disconnecting.
+2026-03-11T14:51:31.879+01:00 [dingtalk] [default] Runtime counters (socket-close): healthUnhealthyChecks=4, healthTriggeredReconnects=2, socketCloseEvents=2, runtimeDisconnects=2, reconnectAttempts=2, reconnectSuccess=1, reconnectFailures=0
+2026-03-11T14:51:33.613+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T14:51:33.619+01:00 [dingtalk] [default] Reconnection successful
+2026-03-11T14:51:33.620+01:00 [dingtalk] [default] Runtime counters (reconnect-success): healthUnhealthyChecks=4, healthTriggeredReconnects=2, socketCloseEvents=2, runtimeDisconnects=2, reconnectAttempts=2, reconnectSuccess=2, reconnectFailures=0
+2026-03-11T14:51:43.630+01:00 [dingtalk] [default] Runtime counters (health-triggered-reconnect): healthUnhealthyChecks=6, healthTriggeredReconnects=3, socketCloseEvents=2, runtimeDisconnects=2, reconnectAttempts=2, reconnectSuccess=2, reconnectFailures=0
+2026-03-11T14:51:43.639+01:00 [dingtalk] [default] Scheduling reconnection in 1.06s
+2026-03-11T14:51:44.703+01:00 [dingtalk] [default] Attempting to reconnect...
+2026-03-11T14:51:44.709+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-11T14:51:44.712+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-11T14:51:44.714+01:00 Disconnecting.
+2026-03-11T14:51:44.726+01:00 [dingtalk] [default] Runtime counters (socket-close): healthUnhealthyChecks=6, healthTriggeredReconnects=3, socketCloseEvents=3, runtimeDisconnects=3, reconnectAttempts=3, reconnectSuccess=2, reconnectFailures=0
+2026-03-11T14:51:46.303+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T14:51:46.310+01:00 [dingtalk] [default] Reconnection successful
+2026-03-11T14:51:46.312+01:00 [dingtalk] [default] Runtime counters (reconnect-success): healthUnhealthyChecks=6, healthTriggeredReconnects=3, socketCloseEvents=3, runtimeDisconnects=3, reconnectAttempts=3, reconnectSuccess=3, reconnectFailures=0
+2026-03-11T14:51:56.321+01:00 [dingtalk] [default] Runtime counters (health-triggered-reconnect): healthUnhealthyChecks=8, healthTriggeredReconnects=4, socketCloseEvents=3, runtimeDisconnects=3, reconnectAttempts=3, reconnectSuccess=3, reconnectFailures=0
+2026-03-11T14:51:56.330+01:00 [dingtalk] [default] Scheduling reconnection in 1.00s
+2026-03-11T14:51:57.336+01:00 [dingtalk] [default] Attempting to reconnect...
+2026-03-11T14:51:57.342+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-11T14:51:57.349+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-11T14:51:57.350+01:00 Disconnecting.
+2026-03-11T14:51:57.370+01:00 [dingtalk] [default] Runtime counters (socket-close): healthUnhealthyChecks=8, healthTriggeredReconnects=4, socketCloseEvents=4, runtimeDisconnects=4, reconnectAttempts=4, reconnectSuccess=3, reconnectFailures=0
+2026-03-11T14:52:00.011+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T14:52:00.019+01:00 [dingtalk] [default] Reconnection successful
+2026-03-11T14:52:00.021+01:00 [dingtalk] [default] Runtime counters (reconnect-success): healthUnhealthyChecks=8, healthTriggeredReconnects=4, socketCloseEvents=4, runtimeDisconnects=4, reconnectAttempts=4, reconnectSuccess=4, reconnectFailures=0
+2026-03-11T14:52:10.029+01:00 [dingtalk] [default] Runtime counters (health-triggered-reconnect): healthUnhealthyChecks=10, healthTriggeredReconnects=5, socketCloseEvents=4, runtimeDisconnects=4, reconnectAttempts=4, reconnectSuccess=4, reconnectFailures=0
+2026-03-11T14:52:10.038+01:00 [dingtalk] [default] Scheduling reconnection in 1.20s
+2026-03-11T14:52:11.243+01:00 [dingtalk] [default] Attempting to reconnect...
+2026-03-11T14:52:11.250+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-11T14:52:11.255+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-11T14:52:11.258+01:00 Disconnecting.
+2026-03-11T14:52:11.276+01:00 [dingtalk] [default] Runtime counters (socket-close): healthUnhealthyChecks=10, healthTriggeredReconnects=5, socketCloseEvents=5, runtimeDisconnects=5, reconnectAttempts=5, reconnectSuccess=4, reconnectFailures=0
+2026-03-11T14:52:14.017+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T14:52:14.024+01:00 [dingtalk] [default] Reconnection successful
+2026-03-11T14:52:14.027+01:00 [dingtalk] [default] Runtime counters (reconnect-success): healthUnhealthyChecks=10, healthTriggeredReconnects=5, socketCloseEvents=5, runtimeDisconnects=5, reconnectAttempts=5, reconnectSuccess=5, reconnectFailures=0
+2026-03-11T14:52:24.034+01:00 [dingtalk] [default] Runtime counters (health-triggered-reconnect): healthUnhealthyChecks=12, healthTriggeredReconnects=6, socketCloseEvents=5, runtimeDisconnects=5, reconnectAttempts=5, reconnectSuccess=5, reconnectFailures=0
+2026-03-11T14:52:24.043+01:00 [dingtalk] [default] Scheduling reconnection in 1.16s
+2026-03-11T14:52:25.210+01:00 [dingtalk] [default] Attempting to reconnect...
+2026-03-11T14:52:25.217+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-11T14:52:25.224+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-11T14:52:25.226+01:00 Disconnecting.
+2026-03-11T14:52:25.241+01:00 [dingtalk] [default] Runtime counters (socket-close): healthUnhealthyChecks=12, healthTriggeredReconnects=6, socketCloseEvents=6, runtimeDisconnects=6, reconnectAttempts=6, reconnectSuccess=5, reconnectFailures=0
+2026-03-11T14:52:26.840+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T14:52:26.848+01:00 [dingtalk] [default] Reconnection successful
+2026-03-11T14:52:26.851+01:00 [dingtalk] [default] Runtime counters (reconnect-success): healthUnhealthyChecks=12, healthTriggeredReconnects=6, socketCloseEvents=6, runtimeDisconnects=6, reconnectAttempts=6, reconnectSuccess=6, reconnectFailures=0
+2026-03-11T14:52:36.857+01:00 [dingtalk] [default] Runtime counters (health-triggered-reconnect): healthUnhealthyChecks=14, healthTriggeredReconnects=7, socketCloseEvents=6, runtimeDisconnects=6, reconnectAttempts=6, reconnectSuccess=6, reconnectFailures=0
+2026-03-11T14:52:36.867+01:00 [dingtalk] [default] Scheduling reconnection in 0.70s
+2026-03-11T14:52:37.574+01:00 [dingtalk] [default] Attempting to reconnect...
+2026-03-11T14:52:37.579+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-11T14:52:37.584+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-11T14:52:37.587+01:00 Disconnecting.
+2026-03-11T14:52:37.600+01:00 [dingtalk] [default] Runtime counters (socket-close): healthUnhealthyChecks=14, healthTriggeredReconnects=7, socketCloseEvents=7, runtimeDisconnects=7, reconnectAttempts=7, reconnectSuccess=6, reconnectFailures=0
+2026-03-11T14:52:39.197+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T14:52:39.203+01:00 [dingtalk] [default] Reconnection successful
+2026-03-11T14:52:39.206+01:00 [dingtalk] [default] Runtime counters (reconnect-success): healthUnhealthyChecks=14, healthTriggeredReconnects=7, socketCloseEvents=7, runtimeDisconnects=7, reconnectAttempts=7, reconnectSuccess=7, reconnectFailures=0
+2026-03-11T14:52:49.209+01:00 [dingtalk] [default] Runtime counters (health-triggered-reconnect): healthUnhealthyChecks=16, healthTriggeredReconnects=8, socketCloseEvents=7, runtimeDisconnects=7, reconnectAttempts=7, reconnectSuccess=7, reconnectFailures=0
+2026-03-11T14:52:49.215+01:00 [dingtalk] [default] Scheduling reconnection in 1.10s
+2026-03-11T14:52:50.326+01:00 [dingtalk] [default] Attempting to reconnect...
+2026-03-11T14:52:50.332+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-11T14:52:50.337+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-11T14:52:50.339+01:00 Disconnecting.
+2026-03-11T14:52:50.357+01:00 [dingtalk] [default] Runtime counters (socket-close): healthUnhealthyChecks=16, healthTriggeredReconnects=8, socketCloseEvents=8, runtimeDisconnects=8, reconnectAttempts=8, reconnectSuccess=7, reconnectFailures=0
+2026-03-11T14:52:52.076+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T14:52:52.083+01:00 [dingtalk] [default] Reconnection successful
+2026-03-11T14:52:52.087+01:00 [dingtalk] [default] Runtime counters (reconnect-success): healthUnhealthyChecks=16, healthTriggeredReconnects=8, socketCloseEvents=8, runtimeDisconnects=8, reconnectAttempts=8, reconnectSuccess=8, reconnectFailures=0
+2026-03-11T14:53:02.091+01:00 [dingtalk] [default] Runtime counters (health-triggered-reconnect): healthUnhealthyChecks=18, healthTriggeredReconnects=9, socketCloseEvents=8, runtimeDisconnects=8, reconnectAttempts=8, reconnectSuccess=8, reconnectFailures=0
+2026-03-11T14:53:02.101+01:00 [dingtalk] [default] Scheduling reconnection in 0.92s
+2026-03-11T14:53:03.022+01:00 [dingtalk] [default] Attempting to reconnect...
+2026-03-11T14:53:03.028+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-11T14:53:03.032+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-11T14:53:03.034+01:00 Disconnecting.
+2026-03-11T14:53:03.047+01:00 [dingtalk] [default] Runtime counters (socket-close): healthUnhealthyChecks=18, healthTriggeredReconnects=9, socketCloseEvents=9, runtimeDisconnects=9, reconnectAttempts=9, reconnectSuccess=8, reconnectFailures=0
+2026-03-11T14:53:04.763+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T14:53:04.769+01:00 [dingtalk] [default] Reconnection successful
+2026-03-11T14:53:04.771+01:00 [dingtalk] [default] Runtime counters (reconnect-success): healthUnhealthyChecks=18, healthTriggeredReconnects=9, socketCloseEvents=9, runtimeDisconnects=9, reconnectAttempts=9, reconnectSuccess=9, reconnectFailures=0
+2026-03-11T14:53:14.779+01:00 [dingtalk] [default] Runtime counters (health-triggered-reconnect): healthUnhealthyChecks=20, healthTriggeredReconnects=10, socketCloseEvents=9, runtimeDisconnects=9, reconnectAttempts=9, reconnectSuccess=9, reconnectFailures=0
+2026-03-11T14:53:14.784+01:00 [dingtalk] [default] Scheduling reconnection in 0.82s
+2026-03-11T14:53:15.610+01:00 [dingtalk] [default] Attempting to reconnect...
+2026-03-11T14:53:15.615+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-11T14:53:15.621+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-11T14:53:15.623+01:00 Disconnecting.
+2026-03-11T14:53:15.637+01:00 [dingtalk] [default] Runtime counters (socket-close): healthUnhealthyChecks=20, healthTriggeredReconnects=10, socketCloseEvents=10, runtimeDisconnects=10, reconnectAttempts=10, reconnectSuccess=9, reconnectFailures=0
+2026-03-11T14:53:17.277+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T14:53:17.285+01:00 [dingtalk] [default] Reconnection successful
+2026-03-11T14:53:17.287+01:00 [dingtalk] [default] Runtime counters (reconnect-success): healthUnhealthyChecks=20, healthTriggeredReconnects=10, socketCloseEvents=10, runtimeDisconnects=10, reconnectAttempts=10, reconnectSuccess=10, reconnectFailures=0
+2026-03-11T14:53:27.294+01:00 [dingtalk] [default] Runtime counters (health-triggered-reconnect): healthUnhealthyChecks=22, healthTriggeredReconnects=11, socketCloseEvents=10, runtimeDisconnects=10, reconnectAttempts=10, reconnectSuccess=10, reconnectFailures=0
+2026-03-11T14:53:27.302+01:00 [dingtalk] [default] Scheduling reconnection in 0.77s
+2026-03-11T14:53:28.078+01:00 [dingtalk] [default] Attempting to reconnect...
+2026-03-11T14:53:28.086+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-11T14:53:28.091+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-11T14:53:28.094+01:00 Disconnecting.
+2026-03-11T14:53:28.110+01:00 [dingtalk] [default] Runtime counters (socket-close): healthUnhealthyChecks=22, healthTriggeredReconnects=11, socketCloseEvents=11, runtimeDisconnects=11, reconnectAttempts=11, reconnectSuccess=10, reconnectFailures=0
+2026-03-11T14:53:29.720+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T14:53:29.728+01:00 [dingtalk] [default] Reconnection successful
+2026-03-11T14:53:29.731+01:00 [dingtalk] [default] Runtime counters (reconnect-success): healthUnhealthyChecks=22, healthTriggeredReconnects=11, socketCloseEvents=11, runtimeDisconnects=11, reconnectAttempts=11, reconnectSuccess=11, reconnectFailures=0
+2026-03-11T14:53:39.735+01:00 [dingtalk] [default] Runtime counters (health-triggered-reconnect): healthUnhealthyChecks=24, healthTriggeredReconnects=12, socketCloseEvents=11, runtimeDisconnects=11, reconnectAttempts=11, reconnectSuccess=11, reconnectFailures=0
+2026-03-11T14:53:39.744+01:00 [dingtalk] [default] Scheduling reconnection in 1.20s
+2026-03-11T14:53:40.951+01:00 [dingtalk] [default] Attempting to reconnect...
+2026-03-11T14:53:40.956+01:00 [dingtalk] [default] Starting DingTalk Stream client with robust connection...
+2026-03-11T14:53:40.963+01:00 [dingtalk] [default] Connection attempt 1/10...
+2026-03-11T14:53:40.965+01:00 Disconnecting.
+2026-03-11T14:53:40.983+01:00 [dingtalk] [default] Runtime counters (socket-close): healthUnhealthyChecks=24, healthTriggeredReconnects=12, socketCloseEvents=12, runtimeDisconnects=12, reconnectAttempts=12, reconnectSuccess=11, reconnectFailures=0
+2026-03-11T14:53:45.308+01:00 [dingtalk] [default] DingTalk Stream client connected successfully
+2026-03-11T14:53:45.316+01:00 [dingtalk] [default] Reconnection successful
+2026-03-11T14:53:45.318+01:00 [dingtalk] [default] Runtime counters (reconnect-success): healthUnhealthyChecks=24, healthTriggeredReconnects=12, socketCloseEvents=12, runtimeDisconnects=12, reconnectAttempts=12, reconnectSuccess=12, reconnectFailures=0
+2026-03-11T14:53:46.803+01:00 [2026-03-11T13:53:46.801Z] connect success
+2026-03-11T14:53:47.766+01:00 [ws] webchat connected conn=fef82d89-8197-4119-b66e-0393b926a807 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.8
+2026-03-11T15:06:50.374+01:00 [dingtalk] Inbound: from=Alex text="你怎么挂了..."
+2026-03-11T15:07:50.483+01:00 [dingtalk] [default] Inbound counters (inflight-skipped): received=2, acked=0, processed=0, dedupSkipped=0, inflightSkipped=1, failed=0, noMessageId=0
